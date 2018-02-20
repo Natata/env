@@ -8,6 +8,7 @@ Plug 'fatih/vim-go', { 'for': 'go'}
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree'
 Plug 'fatih/molokai'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
