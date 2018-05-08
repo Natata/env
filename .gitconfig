@@ -75,6 +75,7 @@
   uploadr = upload
   snippets = forall -vpc git snippets
   bcmgrep = !~/bin/repo-bcm-grep
+  untrack = ls-files --others --exclude-standard
 [credential]
     helper = cache  --socket $HOME/roylou/.git-credential-cache/socket
 [diff]
