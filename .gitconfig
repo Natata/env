@@ -2,9 +2,9 @@
 	sslVerify = false
 [user]
 	email = ph2.71828@gmail.com
-	name = Natata
+	name = Jonathan
 [color]
-    ui = auto
+  ui = auto
   branch = auto
   diff = auto
   status = auto
@@ -76,8 +76,6 @@
   snippets = forall -vpc git snippets
   bcmgrep = !~/bin/repo-bcm-grep
   untrack = ls-files --others --exclude-standard
-[credential]
-    helper = cache  --socket $HOME/roylou/.git-credential-cache/socket
 [diff]
     tool = vimdiff
 [push]
