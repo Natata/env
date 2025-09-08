@@ -59,6 +59,7 @@
   fshow = ! sh -c 'git show --pretty="format:" --name-only $1 | grep -v "^$" | uniq | sed -e "s#^#$(git rev-parse --show-toplevel)/#"' -
   edit  = ! sh -c '$EDITOR $(git fshow $1)' -
   lomax = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  untrack = ls-files --others --exclude-standard
 [repo-alias]
   toupload = !~/bin/repo-toupload
   lol5 = forall -pc git lol -5 HEAD ^m/master
